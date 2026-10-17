@@ -1,0 +1,487 @@
+{
+ "title": "Venice Projects",
+ "subtitle": "One API key. Eighteen months. Every experiment.",
+ "highlight": {
+  "id": "kinderquill",
+  "name": "KinderQuill",
+  "url": "https://kinderquill.up.railway.app",
+  "repo": "https://github.com/vivmuk/Childrensbook2",
+  "shot": "screenshots/childrensbook2.jpg",
+  "tag": "Venice-funded flagship",
+  "desc": "AI-powered children's storybook generator \u2014 age-appropriate stories (Venice text models), Studio Ghibli-style illustrations (qwen-image), and Kokoro TTS narration. Built around the bedtime ritual: daily rotating story prompts, reading streaks, and resume-where-you-left-off. The app that Venice funded \u2014 and the one that started everything else."
+ },
+ "origin": {
+  "name": "The 70s Card Creator",
+  "url": "https://xmasviv.up.railway.app",
+  "repo": "https://github.com/vivmuk/ChristmasCard",
+  "shot": null,
+  "desc": "Where it all began: a retro Atomic-Xmas 'Daddy-O!' card generator \u2014 upload a photo, Venice paints it into a 1970s greeting card. One small script that turned into an eighteen-month building spree."
+ },
+ "projects": [
+  {
+   "name": "Venice Video",
+   "url": "https://venicevideo.up.railway.app",
+   "shot": "screenshots/venice-video.jpg",
+   "desc": "Swiss-designed interface for Venice video models \u2014 model-aware params, self-healing requests, text/image/video-to-video.",
+   "tags": [
+    "video",
+    "swiss-design"
+   ]
+  },
+  {
+   "name": "Katha",
+   "url": "https://katha.up.railway.app",
+   "shot": "screenshots/katha.jpg",
+   "desc": "Conversational storytelling chat with a production API backend.",
+   "tags": [
+    "chat",
+    "api"
+   ]
+  },
+  {
+   "name": "Messy Action",
+   "url": "https://messyaction.up.railway.app",
+   "shot": "screenshots/messy-action.jpg",
+   "desc": "100 Days of Messy Action \u2014 terminal-style transcript archive & searchable database.",
+   "tags": [
+    "archive",
+    "search"
+   ]
+  },
+  {
+   "name": "Mystery Menu",
+   "url": "https://mystery-menu-production.up.railway.app",
+   "shot": "screenshots/mystery-menu.jpg",
+   "desc": "Mobile-first party game: two chefs draft five secret ingredients and bid against each other.",
+   "tags": [
+    "game",
+    "mobile"
+   ]
+  },
+  {
+   "name": "Benchmark (ViviIndex)",
+   "url": "https://benchmarkviv.up.railway.app",
+   "shot": "screenshots/benchmark.jpg",
+   "desc": "Real-API benchmark harness against Venice models \u2014 6-track scoring, cost-per-score leaderboard.",
+   "tags": [
+    "eval",
+    "leaderboard"
+   ]
+  },
+  {
+   "name": "Designviv (Styles + Techniques)",
+   "url": "https://designviv.up.railway.app",
+   "shot": "screenshots/design-site.jpg",
+   "desc": "100 design styles + 226 frontend-technique compendium with live demos \u2014 agent-reference design library.",
+   "tags": [
+    "design",
+    "agents"
+   ]
+  },
+  {
+   "name": "Agent Fleet",
+   "url": "https://vivagents.up.railway.app",
+   "shot": "screenshots/agent-fleet.jpg",
+   "desc": "Fleet dashboard for a constellation of autonomous Venice-powered agents.",
+   "tags": [
+    "agents",
+    "ops"
+   ]
+  },
+  {
+   "name": "Jiva",
+   "url": "https://jiva.up.railway.app",
+   "shot": "screenshots/jiva2.jpg",
+   "desc": "Telegram agent with persistent memory and skills.",
+   "tags": [
+    "telegram",
+    "agent"
+   ]
+  },
+  {
+   "name": "Hita",
+   "url": "https://aubrey.up.railway.app",
+   "shot": "screenshots/hita.jpg",
+   "desc": "Web + Telegram agent with shared reference library and video generation.",
+   "tags": [
+    "agent",
+    "video"
+   ]
+  },
+  {
+   "name": "Dhyan",
+   "url": "https://dhyan-production.up.railway.app",
+   "shot": null,
+   "desc": "Meditation-guide agent on Telegram.",
+   "tags": [
+    "telegram",
+    "agent"
+   ]
+  },
+  {
+   "name": "Rati",
+   "url": "https://rati-production.up.railway.app",
+   "shot": null,
+   "desc": "Deep-research-flavored Telegram agent.",
+   "tags": [
+    "telegram",
+    "agent"
+   ]
+  },
+  {
+   "name": "ProteinLens",
+   "url": "https://proteinlens.up.railway.app",
+   "shot": "screenshots/protein-lens.jpg",
+   "desc": "AI protein folding + 3D visualization with an MSL mode for Medical Affairs.",
+   "tags": [
+    "science",
+    "3d"
+   ]
+  },
+  {
+   "name": "OpenEvidence",
+   "url": "https://oe.up.railway.app",
+   "shot": "screenshots/openevidence.jpg",
+   "desc": "Evidence-based medical answer engine.",
+   "tags": [
+    "medical",
+    "search"
+   ]
+  },
+  {
+   "name": "TrialPath (OncoMatch)",
+   "url": "https://oncomatch.up.railway.app",
+   "shot": "screenshots/trialpath.jpg",
+   "desc": "Oncology trial matching powered by Venice reasoning models.",
+   "tags": [
+    "medical",
+    "matching"
+   ]
+  },
+  {
+   "name": "WildDeed",
+   "url": "https://wilddeed-production.up.railway.app",
+   "shot": "screenshots/patient-mercy.jpg",
+   "desc": "A naturalist's background check for any piece of land \u2014 AI wildlife dossiers for US parcels.",
+   "tags": [
+    "nature",
+    "data"
+   ]
+  },
+  {
+   "name": "Gujarati Kids",
+   "url": "https://gujarati.up.railway.app",
+   "shot": "screenshots/gujarati.jpg",
+   "desc": "Learn Gujarati for kids (4\u201312) \u2014 speech, images, conversation, Krashen's comprehensible-input method.",
+   "tags": [
+    "education",
+    "speech"
+   ]
+  },
+  {
+   "name": "Music Viv",
+   "url": "https://musicviv.up.railway.app",
+   "shot": "screenshots/music-viv.jpg",
+   "desc": "AI music generator \u2014 dynamic model capabilities, lyrics, instrumentation.",
+   "tags": [
+    "music",
+    "audio"
+   ]
+  },
+  {
+   "name": "LyricLens",
+   "url": "https://lyriclens-production.up.railway.app",
+   "shot": null,
+   "desc": "Lyric analysis and visualization.",
+   "tags": [
+    "music",
+    "nlp"
+   ]
+  },
+  {
+   "name": "Prompt Optimizer",
+   "url": "https://promptoptimizer.up.railway.app",
+   "shot": "screenshots/prompt-optimizer.jpg",
+   "desc": "Iterative prompt-engineering workbench.",
+   "tags": [
+    "prompts",
+    "tooling"
+   ]
+  },
+  {
+   "name": "Expert Panel",
+   "url": "https://aipartner.up.railway.app",
+   "shot": "screenshots/expert-panel.jpg",
+   "desc": "Multi-persona expert council debates your hardest questions.",
+   "tags": [
+    "multi-agent",
+    "debate"
+   ]
+  },
+  {
+   "name": "LogicViv",
+   "url": "https://logicviv.up.railway.app",
+   "shot": "screenshots/logicviv.jpg",
+   "desc": "Logic-puzzle reasoning playground.",
+   "tags": [
+    "reasoning",
+    "games"
+   ]
+  },
+  {
+   "name": "MADarwin",
+   "url": "https://madarwin.up.railway.app",
+   "shot": "screenshots/madarwin.jpg",
+   "desc": "Medical Affairs Darwinism \u2014 field intelligence for MSL teams.",
+   "tags": [
+    "pharma",
+    "strategy"
+   ]
+  },
+  {
+   "name": "NuOrg",
+   "url": "https://nuorg.up.railway.app",
+   "shot": "screenshots/nuorg.jpg",
+   "desc": "Simulated pharma org of AI agents that plan, execute, and report.",
+   "tags": [
+    "agents",
+    "simulation"
+   ]
+  },
+  {
+   "name": "NutriSnap",
+   "url": "https://nutriviv.up.railway.app",
+   "shot": null,
+   "desc": "Snap a meal, get AI nutrition analysis.",
+   "tags": [
+    "health",
+    "vision"
+   ]
+  },
+  {
+   "name": "Cognitive Bias",
+   "url": "https://cogviv.up.railway.app",
+   "shot": "screenshots/cognitive-bias.jpg",
+   "desc": "Interactive catalog of cognitive biases with AI reframing.",
+   "tags": [
+    "psychology",
+    "learning"
+   ]
+  },
+  {
+   "name": "vivGPT",
+   "url": "https://vivgpt.up.railway.app",
+   "shot": "screenshots/vivgpt.jpg",
+   "desc": "General-purpose Venice chat interface.",
+   "tags": [
+    "chat"
+   ]
+  },
+  {
+   "name": "vivMorph",
+   "url": "https://vivmorph.up.railway.app",
+   "shot": "screenshots/vivmorph.jpg",
+   "desc": "Image transformation pipelines.",
+   "tags": [
+    "image"
+   ]
+  },
+  {
+   "name": "Reynaa",
+   "url": "https://reynaa.up.railway.app",
+   "shot": "screenshots/reynaa.jpg",
+   "desc": "Persona agent.",
+   "tags": [
+    "agent"
+   ]
+  },
+  {
+   "name": "Fable5",
+   "url": "https://fable5.up.railway.app",
+   "shot": "screenshots/fable5.jpg",
+   "desc": "Interactive game teaching Fable 5's capabilities across 5 chapters.",
+   "tags": [
+    "game",
+    "education"
+   ]
+  },
+  {
+   "name": "Harness Engineering",
+   "url": "https://harnessviv.up.railway.app",
+   "shot": "screenshots/harness-engin.jpg",
+   "desc": "Design agent harnesses for any domain.",
+   "tags": [
+    "agents",
+    "framework"
+   ]
+  },
+  {
+   "name": "AI in Action",
+   "url": "https://aiinaction.up.railway.app",
+   "shot": "screenshots/ai-in-action-website.jpg",
+   "desc": "Showcase of AI in practice.",
+   "tags": [
+    "showcase"
+   ]
+  },
+  {
+   "name": "Engineering Leader Academy",
+   "url": "https://engineeringacademy.up.railway.app",
+   "shot": "screenshots/engineering-leader-academy.jpg",
+   "desc": "Curriculum for engineering leadership.",
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "name": "Infinite Productivity",
+   "url": "https://infiniteproductivity.up.railway.app",
+   "shot": "screenshots/infinite-productivity.jpg",
+   "desc": "Productivity systems course.",
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "name": "Love Rally",
+   "url": "https://loveallrally.up.railway.app",
+   "shot": "screenshots/love-rally.jpg",
+   "desc": "Relationship gamification experience.",
+   "tags": [
+    "game"
+   ]
+  },
+  {
+   "name": "Cogs",
+   "url": "https://cogs.up.railway.app",
+   "shot": "screenshots/cogs.jpg",
+   "desc": "Mechanical thinking toy.",
+   "tags": [
+    "game"
+   ]
+  },
+  {
+   "name": "Nutan",
+   "url": "https://nutan.up.railway.app",
+   "shot": "screenshots/nutan.jpg",
+   "desc": "Knowledge companion.",
+   "tags": [
+    "chat"
+   ]
+  },
+  {
+   "name": "Home Dashboard",
+   "url": "https://gandv.up.railway.app",
+   "shot": "screenshots/home-dashboard.jpg",
+   "desc": "Family dashboard.",
+   "tags": [
+    "utility"
+   ]
+  },
+  {
+   "name": "Horse Harness",
+   "url": "https://web-production-07325.up.railway.app",
+   "shot": "screenshots/horse-harness.jpg",
+   "desc": "Harness experiment.",
+   "tags": [
+    "experiment"
+   ]
+  },
+  {
+   "name": "NuOrg Shilpa",
+   "url": "https://nuorgsk.up.railway.app",
+   "shot": "screenshots/nuorg-shilpa.jpg",
+   "desc": "NuOrg persona deployment.",
+   "tags": [
+    "agents"
+   ]
+  },
+  {
+   "name": "jevusecases",
+   "url": "https://jev.up.railway.app",
+   "shot": "screenshots/jevusecases.jpg",
+   "desc": "Nineteen closed-answer jobs for a decision model \u2014 code, prompts, plates.",
+   "tags": [
+    "eval",
+    "bench"
+   ]
+  },
+  {
+   "name": "AI Pathway (1/2/3/4)",
+   "url": "https://aipathway4.up.railway.app",
+   "shot": null,
+   "desc": "Four generations of an AI-learning pathway app.",
+   "tags": [
+    "education",
+    "series"
+   ]
+  },
+  {
+   "name": "Expert-KDense / Sci-Research",
+   "url": "https://expertviv.up.railway.app",
+   "shot": "screenshots/experts-kdense.jpg",
+   "desc": "AI co-scientist experiences.",
+   "tags": [
+    "science",
+    "agents"
+   ]
+  },
+  {
+   "name": "Visper",
+   "url": "https://visper.up.railway.app",
+   "shot": "screenshots/visper.jpg",
+   "desc": "Visual perception playground.",
+   "tags": [
+    "vision"
+   ]
+  },
+  {
+   "name": "Vent",
+   "url": "https://vent-production-f72f.up.railway.app",
+   "shot": "screenshots/vent.jpg",
+   "desc": "AI listening companion \u2014 vent safely.",
+   "tags": [
+    "wellbeing"
+   ]
+  },
+  {
+   "name": "Grateful Connection (Drishti)",
+   "url": "https://dristhi.up.railway.app",
+   "shot": "screenshots/grateful-connection.jpg",
+   "desc": "Gratitude journaling with AI reflections.",
+   "tags": [
+    "wellbeing"
+   ]
+  },
+  {
+   "name": "MA1 / MA Sandbox / MA AI Learning",
+   "url": "https://ma1.up.railway.app",
+   "shot": "screenshots/ma1.jpg",
+   "desc": "Medical Affairs learning & sandbox suite.",
+   "tags": [
+    "pharma",
+    "education"
+   ]
+  },
+  {
+   "name": "Eval AI Pathway",
+   "url": "https://evalaipathway.up.railway.app",
+   "shot": "screenshots/sincere-achievement.jpg",
+   "desc": "Assessment layer for AI learning tracks.",
+   "tags": [
+    "education",
+    "eval"
+   ]
+  },
+  {
+   "name": "MSL Training",
+   "url": "https://msltraining.up.railway.app",
+   "shot": null,
+   "desc": "MSL certification trainer.",
+   "tags": [
+    "pharma",
+    "training"
+   ]
+  }
+ ]
+}
