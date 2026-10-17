@@ -339,17 +339,6 @@
     "education"
    ],
    "top_pick": false
-  },
-  {
-   "name": "MSL Training",
-   "url": "https://msltraining.up.railway.app",
-   "shot": null,
-   "desc": "MSL certification trainer.",
-   "tags": [
-    "pharma",
-    "training"
-   ],
-   "top_pick": false
   }
  ],
  "netlify_projects": [
