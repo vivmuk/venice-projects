@@ -343,6 +343,17 @@
  ],
  "netlify_projects": [
   {
+   "name": "Prompt Optimizer",
+   "url": "https://promptoptimizer.netlify.app",
+   "shot": "screenshots/promptoptimizer.jpg",
+   "desc": "Turn rough ideas into engineered prompts \u2014 system prompt designer with live model preview.",
+   "tags": [
+    "text",
+    "tooling"
+   ],
+   "special": true
+  },
+  {
    "name": "V/GEN (imagegenviv)",
    "url": "https://imagegenviv.netlify.app",
    "shot": "screenshots/imagegenviv.jpg",

@@ -100,6 +100,10 @@ footer a{color:var(--cyan);text-decoration:none}
 footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:8px;box-shadow:0 0 12px var(--green);animation:blink 2s infinite}
 
 .pick{position:absolute;top:12px;left:12px;z-index:2;font-family:var(--mono);font-size:10px;letter-spacing:.2em;background:linear-gradient(90deg,var(--amber),var(--magenta));color:#05060a;font-weight:700;padding:5px 10px;border-radius:99px}
+.special-row{position:relative;z-index:2;max-width:1160px;margin:0 auto 48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.proj.special{grid-column:span 1;min-height:420px}
+.proj.special .body h3{font-size:26px}
+.proj.special{border-color:rgba(255,170,0,.35);box-shadow:0 0 0 1px rgba(255,170,0,.12),0 18px 60px rgba(0,0,0,.45)}
 /* progress bar */
 #prog{position:fixed;top:0;left:0;height:2px;z-index:50;background:linear-gradient(90deg,var(--cyan),var(--green),var(--magenta));width:0%}
 </style>
@@ -123,9 +127,9 @@ footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;backgr
 
 <section class="origin rv">
   <div class="kicker">— where it started —</div>
-  <h2>One 70s birthday card.</h2>
-  <p>December 2025: a single-page app that takes a photo and repaints it as a 1970s greeting card — <i>"Atomic Xmas, Daddy-O!"</i> — through the Venice image API. It was a toy. Then the toys kept coming: cards → video interfaces → agents → storybooks. Eighteen months later, the ledger looks like this page.</p>
-  <a class="cardlink" href="https://github.com/vivmuk/ChristmasCard" target="_blank" rel="noopener">view the original card repo →</a>
+  <h2>One Ghibli celebration.</h2>
+  <p>Early 2025: a single-page app that turns a photo into a Studio Ghibli–style celebration scene through the Venice image API. It was a toy. Then the toys kept coming: celebrations → prompt tools → generators → agents → storybooks. Eighteen months later, the ledger looks like this page.</p>
+  <a class="cardlink" href="https://70animeclebration.netlify.app" target="_blank" rel="noopener">open the original app ↗</a>
 </section>
 
 <section class="kq">
