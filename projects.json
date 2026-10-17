@@ -19,6 +19,17 @@
  },
  "projects": [
   {
+   "name": "NutriSnap",
+   "url": "https://minimal-production-b450.up.railway.app",
+   "shot": "screenshots/nutrisnap.jpg",
+   "desc": "Snap a meal, read the numbers \u2014 super-minimalist AI nutrition tracker. BYOK-ready, rewritten from scratch.",
+   "tags": [
+    "health",
+    "byok"
+   ],
+   "top_pick": true
+  },
+  {
    "name": "Venice Video",
    "url": "https://venicevideo.up.railway.app",
    "shot": "screenshots/venice-video.jpg",
@@ -26,7 +37,8 @@
    "tags": [
     "video",
     "swiss-design"
-   ]
+   ],
+   "top_pick": true
   },
   {
    "name": "Katha",
@@ -36,7 +48,8 @@
    "tags": [
     "chat",
     "api"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Messy Action",
@@ -46,7 +59,8 @@
    "tags": [
     "archive",
     "search"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Mystery Menu",
@@ -56,7 +70,8 @@
    "tags": [
     "game",
     "mobile"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Benchmark (ViviIndex)",
@@ -66,7 +81,8 @@
    "tags": [
     "eval",
     "leaderboard"
-   ]
+   ],
+   "top_pick": true
   },
   {
    "name": "Designviv (Styles + Techniques)",
@@ -76,57 +92,8 @@
    "tags": [
     "design",
     "agents"
-   ]
-  },
-  {
-   "name": "Agent Fleet",
-   "url": "https://vivagents.up.railway.app",
-   "shot": "screenshots/agent-fleet.jpg",
-   "desc": "Fleet dashboard for a constellation of autonomous Venice-powered agents.",
-   "tags": [
-    "agents",
-    "ops"
-   ]
-  },
-  {
-   "name": "Jiva",
-   "url": "https://jiva.up.railway.app",
-   "shot": "screenshots/jiva2.jpg",
-   "desc": "Telegram agent with persistent memory and skills.",
-   "tags": [
-    "telegram",
-    "agent"
-   ]
-  },
-  {
-   "name": "Hita",
-   "url": "https://aubrey.up.railway.app",
-   "shot": "screenshots/hita.jpg",
-   "desc": "Web + Telegram agent with shared reference library and video generation.",
-   "tags": [
-    "agent",
-    "video"
-   ]
-  },
-  {
-   "name": "Dhyan",
-   "url": "https://dhyan-production.up.railway.app",
-   "shot": null,
-   "desc": "Meditation-guide agent on Telegram.",
-   "tags": [
-    "telegram",
-    "agent"
-   ]
-  },
-  {
-   "name": "Rati",
-   "url": "https://rati-production.up.railway.app",
-   "shot": null,
-   "desc": "Deep-research-flavored Telegram agent.",
-   "tags": [
-    "telegram",
-    "agent"
-   ]
+   ],
+   "top_pick": true
   },
   {
    "name": "ProteinLens",
@@ -136,7 +103,8 @@
    "tags": [
     "science",
     "3d"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "OpenEvidence",
@@ -146,7 +114,8 @@
    "tags": [
     "medical",
     "search"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "TrialPath (OncoMatch)",
@@ -156,7 +125,8 @@
    "tags": [
     "medical",
     "matching"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "WildDeed",
@@ -166,7 +136,8 @@
    "tags": [
     "nature",
     "data"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Gujarati Kids",
@@ -176,7 +147,8 @@
    "tags": [
     "education",
     "speech"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Music Viv",
@@ -186,7 +158,8 @@
    "tags": [
     "music",
     "audio"
-   ]
+   ],
+   "top_pick": true
   },
   {
    "name": "LyricLens",
@@ -196,27 +169,8 @@
    "tags": [
     "music",
     "nlp"
-   ]
-  },
-  {
-   "name": "Prompt Optimizer",
-   "url": "https://promptoptimizer.up.railway.app",
-   "shot": "screenshots/prompt-optimizer.jpg",
-   "desc": "Iterative prompt-engineering workbench.",
-   "tags": [
-    "prompts",
-    "tooling"
-   ]
-  },
-  {
-   "name": "Expert Panel",
-   "url": "https://aipartner.up.railway.app",
-   "shot": "screenshots/expert-panel.jpg",
-   "desc": "Multi-persona expert council debates your hardest questions.",
-   "tags": [
-    "multi-agent",
-    "debate"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "LogicViv",
@@ -226,7 +180,8 @@
    "tags": [
     "reasoning",
     "games"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "MADarwin",
@@ -236,27 +191,8 @@
    "tags": [
     "pharma",
     "strategy"
-   ]
-  },
-  {
-   "name": "NuOrg",
-   "url": "https://nuorg.up.railway.app",
-   "shot": "screenshots/nuorg.jpg",
-   "desc": "Simulated pharma org of AI agents that plan, execute, and report.",
-   "tags": [
-    "agents",
-    "simulation"
-   ]
-  },
-  {
-   "name": "NutriSnap",
-   "url": "https://nutriviv.up.railway.app",
-   "shot": null,
-   "desc": "Snap a meal, get AI nutrition analysis.",
-   "tags": [
-    "health",
-    "vision"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Cognitive Bias",
@@ -266,7 +202,8 @@
    "tags": [
     "psychology",
     "learning"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "vivGPT",
@@ -275,25 +212,8 @@
    "desc": "General-purpose Venice chat interface.",
    "tags": [
     "chat"
-   ]
-  },
-  {
-   "name": "vivMorph",
-   "url": "https://vivmorph.up.railway.app",
-   "shot": "screenshots/vivmorph.jpg",
-   "desc": "Image transformation pipelines.",
-   "tags": [
-    "image"
-   ]
-  },
-  {
-   "name": "Reynaa",
-   "url": "https://reynaa.up.railway.app",
-   "shot": "screenshots/reynaa.jpg",
-   "desc": "Persona agent.",
-   "tags": [
-    "agent"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Fable5",
@@ -303,7 +223,8 @@
    "tags": [
     "game",
     "education"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Harness Engineering",
@@ -313,7 +234,8 @@
    "tags": [
     "agents",
     "framework"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "AI in Action",
@@ -322,7 +244,8 @@
    "desc": "Showcase of AI in practice.",
    "tags": [
     "showcase"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Engineering Leader Academy",
@@ -331,7 +254,8 @@
    "desc": "Curriculum for engineering leadership.",
    "tags": [
     "education"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Infinite Productivity",
@@ -340,16 +264,8 @@
    "desc": "Productivity systems course.",
    "tags": [
     "education"
-   ]
-  },
-  {
-   "name": "Love Rally",
-   "url": "https://loveallrally.up.railway.app",
-   "shot": "screenshots/love-rally.jpg",
-   "desc": "Relationship gamification experience.",
-   "tags": [
-    "game"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Cogs",
@@ -358,25 +274,8 @@
    "desc": "Mechanical thinking toy.",
    "tags": [
     "game"
-   ]
-  },
-  {
-   "name": "Nutan",
-   "url": "https://nutan.up.railway.app",
-   "shot": "screenshots/nutan.jpg",
-   "desc": "Knowledge companion.",
-   "tags": [
-    "chat"
-   ]
-  },
-  {
-   "name": "Home Dashboard",
-   "url": "https://gandv.up.railway.app",
-   "shot": "screenshots/home-dashboard.jpg",
-   "desc": "Family dashboard.",
-   "tags": [
-    "utility"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Horse Harness",
@@ -385,16 +284,8 @@
    "desc": "Harness experiment.",
    "tags": [
     "experiment"
-   ]
-  },
-  {
-   "name": "NuOrg Shilpa",
-   "url": "https://nuorgsk.up.railway.app",
-   "shot": "screenshots/nuorg-shilpa.jpg",
-   "desc": "NuOrg persona deployment.",
-   "tags": [
-    "agents"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "jevusecases",
@@ -404,17 +295,8 @@
    "tags": [
     "eval",
     "bench"
-   ]
-  },
-  {
-   "name": "AI Pathway (1/2/3/4)",
-   "url": "https://aipathway4.up.railway.app",
-   "shot": null,
-   "desc": "Four generations of an AI-learning pathway app.",
-   "tags": [
-    "education",
-    "series"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Expert-KDense / Sci-Research",
@@ -424,7 +306,8 @@
    "tags": [
     "science",
     "agents"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Visper",
@@ -433,7 +316,8 @@
    "desc": "Visual perception playground.",
    "tags": [
     "vision"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "Vent",
@@ -442,16 +326,8 @@
    "desc": "AI listening companion \u2014 vent safely.",
    "tags": [
     "wellbeing"
-   ]
-  },
-  {
-   "name": "Grateful Connection (Drishti)",
-   "url": "https://dristhi.up.railway.app",
-   "shot": "screenshots/grateful-connection.jpg",
-   "desc": "Gratitude journaling with AI reflections.",
-   "tags": [
-    "wellbeing"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "MA1 / MA Sandbox / MA AI Learning",
@@ -461,17 +337,8 @@
    "tags": [
     "pharma",
     "education"
-   ]
-  },
-  {
-   "name": "Eval AI Pathway",
-   "url": "https://evalaipathway.up.railway.app",
-   "shot": "screenshots/sincere-achievement.jpg",
-   "desc": "Assessment layer for AI learning tracks.",
-   "tags": [
-    "education",
-    "eval"
-   ]
+   ],
+   "top_pick": false
   },
   {
    "name": "MSL Training",
@@ -481,7 +348,8 @@
    "tags": [
     "pharma",
     "training"
-   ]
+   ],
+   "top_pick": false
   }
  ],
  "netlify_projects": [
@@ -503,33 +371,6 @@
    "tags": [
     "byok",
     "studio"
-   ]
-  },
-  {
-   "name": "Prompt Optimizer",
-   "url": "https://promptoptimizer.netlify.app",
-   "shot": "screenshots/promptoptimizer.jpg",
-   "desc": "Prompt orchestration workbench (Netlify edition).",
-   "tags": [
-    "prompts"
-   ]
-  },
-  {
-   "name": "vivMorph (Netlify)",
-   "url": "https://vivmorph.netlify.app",
-   "shot": "screenshots/vivmorph.jpg",
-   "desc": "AI image editor (Netlify edition).",
-   "tags": [
-    "image"
-   ]
-  },
-  {
-   "name": "vivGPT (Netlify)",
-   "url": "https://vivgpt.netlify.app",
-   "shot": "screenshots/vivgpt.jpg",
-   "desc": "Venice chat interface (Netlify edition).",
-   "tags": [
-    "chat"
    ]
   },
   {
@@ -760,67 +601,12 @@
    ]
   },
   {
-   "name": "TrialPath (patient-finder v2)",
-   "url": "https://aipharma-patient-finder-4ef0ba09.netlify.app",
-   "shot": "screenshots/aipharma-patient-finder-4ef0ba09.jpg",
-   "desc": "Trial matching \u2014 refined iteration.",
-   "tags": [
-    "medical",
-    "matching"
-   ]
-  },
-  {
    "name": "Web Test Viv (Hydroponics)",
    "url": "https://webtestviv.netlify.app",
    "shot": "screenshots/webtestviv.jpg",
    "desc": "Artisan hydroponics \u2014 research & cultivation.",
    "tags": [
     "experiment"
-   ]
-  },
-  {
-   "name": "Baby Shower (Manali & Raj)",
-   "url": "https://rajandmanali.netlify.app",
-   "shot": "screenshots/rajandmanali.jpg",
-   "desc": "Family celebration microsite.",
-   "tags": [
-    "personal"
-   ]
-  },
-  {
-   "name": "The Iron Halo",
-   "url": "https://ironhalo.netlify.app",
-   "shot": "screenshots/ironhalo.jpg",
-   "desc": "Tribute site \u2014 Spandan Shah.",
-   "tags": [
-    "personal"
-   ]
-  },
-  {
-   "name": "Dr. Link",
-   "url": "https://drlink.netlify.app",
-   "shot": "screenshots/drlink.jpg",
-   "desc": "Clinical psychologist practice site.",
-   "tags": [
-    "personal"
-   ]
-  },
-  {
-   "name": "Hetal Studio",
-   "url": "https://hetalstudio.netlify.app",
-   "shot": "screenshots/hetalstudio.jpg",
-   "desc": "Studio/portfolio site.",
-   "tags": [
-    "personal"
-   ]
-  },
-  {
-   "name": "Chino Alchies",
-   "url": "https://alchies.netlify.app",
-   "shot": "screenshots/alchies.jpg",
-   "desc": "Personal creative site.",
-   "tags": [
-    "personal"
    ]
   },
   {

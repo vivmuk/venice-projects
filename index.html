@@ -99,6 +99,7 @@ footer{position:relative;z-index:2;text-align:center;padding:10vh 24px 8vh;font-
 footer a{color:var(--cyan);text-decoration:none}
 footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:8px;box-shadow:0 0 12px var(--green);animation:blink 2s infinite}
 
+.pick{position:absolute;top:12px;left:12px;z-index:2;font-family:var(--mono);font-size:10px;letter-spacing:.2em;background:linear-gradient(90deg,var(--amber),var(--magenta));color:#05060a;font-weight:700;padding:5px 10px;border-radius:99px}
 /* progress bar */
 #prog{position:fixed;top:0;left:0;height:2px;z-index:50;background:linear-gradient(90deg,var(--cyan),var(--green),var(--magenta));width:0%}
 </style>
@@ -149,7 +150,7 @@ footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;backgr
 </div>
 
 <section class="section" id="all">
-  <h2 class="rv">The Fleet.</h2>
+  <h2 class="rv">Top Picks.</h2>
   <p class="lede rv">Every live deployment, screenshotted this week. Click any card to open the real app. Screenshots render lazy and reveal on scroll.</p>
   <div class="grid" id="grid"></div>
 </section>
