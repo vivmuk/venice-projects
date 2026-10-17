@@ -401,15 +401,6 @@
    ]
   },
   {
-   "name": "Cognitive Bias Hub",
-   "url": "https://cogviv.netlify.app",
-   "shot": "screenshots/cogviv.jpg",
-   "desc": "Cognitive bias learning hub (Netlify edition).",
-   "tags": [
-    "psychology"
-   ]
-  },
-  {
    "name": "MacroLens (Zepviv)",
    "url": "https://zepviv.netlify.app",
    "shot": "screenshots/zepviv.jpg",
@@ -485,15 +476,6 @@
    ]
   },
   {
-   "name": "V's Habit Tracker",
-   "url": "https://vhabit.netlify.app",
-   "shot": "screenshots/vhabit.jpg",
-   "desc": "Personal habit tracker 2025.",
-   "tags": [
-    "utility"
-   ]
-  },
-  {
    "name": "GenAI Chutney",
    "url": "https://genaichutney.com",
    "shot": "screenshots/genaiclass.jpg",
@@ -543,15 +525,6 @@
    ]
   },
   {
-   "name": "MSL Precall Prep",
-   "url": "https://precallprep.netlify.app",
-   "shot": "screenshots/precallprep.jpg",
-   "desc": "MSL pre-call planning platform.",
-   "tags": [
-    "pharma"
-   ]
-  },
-  {
    "name": "Medical Slide Analyzer",
    "url": "https://slide-ma-extractor.netlify.app",
    "shot": "screenshots/slide-ma-extractor.jpg",
@@ -577,16 +550,6 @@
    "desc": "Conference agenda analyzer for congress planning.",
    "tags": [
     "pharma"
-   ]
-  },
-  {
-   "name": "TrialPath Patient Finder",
-   "url": "https://aipharma-patient-finder.netlify.app",
-   "shot": "screenshots/aipharma-patient-finder.jpg",
-   "desc": "Clinical trial finder \u2014 patient tool.",
-   "tags": [
-    "medical",
-    "matching"
    ]
   },
   {
