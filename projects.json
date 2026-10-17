@@ -483,5 +483,363 @@
     "training"
    ]
   }
+ ],
+ "netlify_projects": [
+  {
+   "name": "V/GEN (imagegenviv)",
+   "url": "https://imagegenviv.netlify.app",
+   "shot": "screenshots/imagegenviv.jpg",
+   "desc": "AI image generator \u2014 the early Venice image playground.",
+   "tags": [
+    "image",
+    "early"
+   ]
+  },
+  {
+   "name": "MultiGen",
+   "url": "https://multigen.netlify.app",
+   "shot": "screenshots/multigen.jpg",
+   "desc": "BYOK multi-model studio \u2014 text/image/video/voice/music over your own Venice key. The BYOK blueprint.",
+   "tags": [
+    "byok",
+    "studio"
+   ]
+  },
+  {
+   "name": "Prompt Optimizer",
+   "url": "https://promptoptimizer.netlify.app",
+   "shot": "screenshots/promptoptimizer.jpg",
+   "desc": "Prompt orchestration workbench (Netlify edition).",
+   "tags": [
+    "prompts"
+   ]
+  },
+  {
+   "name": "vivMorph (Netlify)",
+   "url": "https://vivmorph.netlify.app",
+   "shot": "screenshots/vivmorph.jpg",
+   "desc": "AI image editor (Netlify edition).",
+   "tags": [
+    "image"
+   ]
+  },
+  {
+   "name": "vivGPT (Netlify)",
+   "url": "https://vivgpt.netlify.app",
+   "shot": "screenshots/vivgpt.jpg",
+   "desc": "Venice chat interface (Netlify edition).",
+   "tags": [
+    "chat"
+   ]
+  },
+  {
+   "name": "Ghibli Celebration Generator",
+   "url": "https://70animeclebration.netlify.app",
+   "shot": "screenshots/70animeclebration.jpg",
+   "desc": "A 70th birthday Ghibli-style celebration generator \u2014 Venice image API.",
+   "tags": [
+    "image",
+    "birthday"
+   ]
+  },
+  {
+   "name": "Sora 2 Prompt Assistant",
+   "url": "https://sora2.netlify.app",
+   "shot": "screenshots/sora2.jpg",
+   "desc": "Cinematic prompt engineering for video generation.",
+   "tags": [
+    "video",
+    "prompts"
+   ]
+  },
+  {
+   "name": "Venice Web Scraper",
+   "url": "https://scrapeviv.netlify.app",
+   "shot": "screenshots/scrapeviv.jpg",
+   "desc": "Scrape & analyze web pages with the Venice augment API.",
+   "tags": [
+    "tools"
+   ]
+  },
+  {
+   "name": "The New Work Chart",
+   "url": "https://workchart.netlify.app",
+   "shot": "screenshots/workchart.jpg",
+   "desc": "AI-era org-chart rethink tool.",
+   "tags": [
+    "career"
+   ]
+  },
+  {
+   "name": "Cognitive Bias Hub",
+   "url": "https://cogviv.netlify.app",
+   "shot": "screenshots/cogviv.jpg",
+   "desc": "Cognitive bias learning hub (Netlify edition).",
+   "tags": [
+    "psychology"
+   ]
+  },
+  {
+   "name": "MacroLens (Zepviv)",
+   "url": "https://zepviv.netlify.app",
+   "shot": "screenshots/zepviv.jpg",
+   "desc": "Smart nutrition tracking.",
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "name": "A-Calorie",
+   "url": "https://acalorie.netlify.app",
+   "shot": "screenshots/acalorie.jpg",
+   "desc": "Food calorie counter with AI vision.",
+   "tags": [
+    "health",
+    "vision"
+   ]
+  },
+  {
+   "name": "Article-to-Podcast",
+   "url": "https://audioviv.netlify.app",
+   "shot": "screenshots/audioviv.jpg",
+   "desc": "Article to podcast summarizer \u2014 Venice TTS.",
+   "tags": [
+    "audio",
+    "tts"
+   ]
+  },
+  {
+   "name": "YouTube Transcriber",
+   "url": "https://scriptviv.netlify.app",
+   "shot": "screenshots/scriptviv.jpg",
+   "desc": "Video transcript extraction and analysis.",
+   "tags": [
+    "transcript"
+   ]
+  },
+  {
+   "name": "Mindful Leader",
+   "url": "https://leaderviv.netlify.app",
+   "shot": "screenshots/leaderviv.jpg",
+   "desc": "AI-powered leadership coaching.",
+   "tags": [
+    "coaching"
+   ]
+  },
+  {
+   "name": "Field Medical Trainer",
+   "url": "https://fmaitrainer.netlify.app",
+   "shot": "screenshots/fmaitrainer.jpg",
+   "desc": "Field Medical training platform \u2014 MSL roleplay scenarios.",
+   "tags": [
+    "pharma",
+    "training"
+   ]
+  },
+  {
+   "name": "Children's Book Generator (v1)",
+   "url": "https://childrenbook.netlify.app",
+   "shot": "screenshots/childrenbook.jpg",
+   "desc": "KinderQuill's direct ancestor \u2014 the first children's book generator.",
+   "tags": [
+    "flagship-lineage"
+   ]
+  },
+  {
+   "name": "GPT-5 Capability Explorer",
+   "url": "https://gpt5v.netlify.app",
+   "shot": "screenshots/gpt5v.jpg",
+   "desc": "Interactive capability explorer.",
+   "tags": [
+    "research"
+   ]
+  },
+  {
+   "name": "V's Habit Tracker",
+   "url": "https://vhabit.netlify.app",
+   "shot": "screenshots/vhabit.jpg",
+   "desc": "Personal habit tracker 2025.",
+   "tags": [
+    "utility"
+   ]
+  },
+  {
+   "name": "GenAI Chutney",
+   "url": "https://genaichutney.com",
+   "shot": "screenshots/genaiclass.jpg",
+   "desc": "Introduction to Generative AI \u2014 custom-domain course site.",
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "name": "GenAI Medical Affairs",
+   "url": "https://genaima.netlify.app",
+   "shot": "screenshots/genaima.jpg",
+   "desc": "GenAI impact primer for Medical Affairs.",
+   "tags": [
+    "pharma",
+    "education"
+   ]
+  },
+  {
+   "name": "AI in Clinical Trials",
+   "url": "https://clinai.netlify.app",
+   "shot": "screenshots/clinai.jpg",
+   "desc": "Clinical trials AI explainer.",
+   "tags": [
+    "pharma",
+    "education"
+   ]
+  },
+  {
+   "name": "Agentic Ad Board",
+   "url": "https://agenticadboard.netlify.app",
+   "shot": "screenshots/agenticadboard.jpg",
+   "desc": "Medical Advisory Board \u2014 multi-agent simulation.",
+   "tags": [
+    "pharma",
+    "agents"
+   ]
+  },
+  {
+   "name": "Scientific Platform Creator",
+   "url": "https://scientificplatform.netlify.app",
+   "shot": "screenshots/scientificplatform.jpg",
+   "desc": "Agentic scientific platform creation system.",
+   "tags": [
+    "pharma",
+    "agents"
+   ]
+  },
+  {
+   "name": "MSL Precall Prep",
+   "url": "https://precallprep.netlify.app",
+   "shot": "screenshots/precallprep.jpg",
+   "desc": "MSL pre-call planning platform.",
+   "tags": [
+    "pharma"
+   ]
+  },
+  {
+   "name": "Medical Slide Analyzer",
+   "url": "https://slide-ma-extractor.netlify.app",
+   "shot": "screenshots/slide-ma-extractor.jpg",
+   "desc": "Medical presentation analyzer.",
+   "tags": [
+    "pharma",
+    "vision"
+   ]
+  },
+  {
+   "name": "Insight Extractor",
+   "url": "https://insightextractor.netlify.app",
+   "shot": "screenshots/insightextractor.jpg",
+   "desc": "Medical presentation analysis.",
+   "tags": [
+    "pharma"
+   ]
+  },
+  {
+   "name": "Congress AI",
+   "url": "https://congressai.netlify.app",
+   "shot": "screenshots/congressai.jpg",
+   "desc": "Conference agenda analyzer for congress planning.",
+   "tags": [
+    "pharma"
+   ]
+  },
+  {
+   "name": "TrialPath Patient Finder",
+   "url": "https://aipharma-patient-finder.netlify.app",
+   "shot": "screenshots/aipharma-patient-finder.jpg",
+   "desc": "Clinical trial finder \u2014 patient tool.",
+   "tags": [
+    "medical",
+    "matching"
+   ]
+  },
+  {
+   "name": "TrialPath (patient-finder v2)",
+   "url": "https://aipharma-patient-finder-4ef0ba09.netlify.app",
+   "shot": "screenshots/aipharma-patient-finder-4ef0ba09.jpg",
+   "desc": "Trial matching \u2014 refined iteration.",
+   "tags": [
+    "medical",
+    "matching"
+   ]
+  },
+  {
+   "name": "Web Test Viv (Hydroponics)",
+   "url": "https://webtestviv.netlify.app",
+   "shot": "screenshots/webtestviv.jpg",
+   "desc": "Artisan hydroponics \u2014 research & cultivation.",
+   "tags": [
+    "experiment"
+   ]
+  },
+  {
+   "name": "Baby Shower (Manali & Raj)",
+   "url": "https://rajandmanali.netlify.app",
+   "shot": "screenshots/rajandmanali.jpg",
+   "desc": "Family celebration microsite.",
+   "tags": [
+    "personal"
+   ]
+  },
+  {
+   "name": "The Iron Halo",
+   "url": "https://ironhalo.netlify.app",
+   "shot": "screenshots/ironhalo.jpg",
+   "desc": "Tribute site \u2014 Spandan Shah.",
+   "tags": [
+    "personal"
+   ]
+  },
+  {
+   "name": "Dr. Link",
+   "url": "https://drlink.netlify.app",
+   "shot": "screenshots/drlink.jpg",
+   "desc": "Clinical psychologist practice site.",
+   "tags": [
+    "personal"
+   ]
+  },
+  {
+   "name": "Hetal Studio",
+   "url": "https://hetalstudio.netlify.app",
+   "shot": "screenshots/hetalstudio.jpg",
+   "desc": "Studio/portfolio site.",
+   "tags": [
+    "personal"
+   ]
+  },
+  {
+   "name": "Chino Alchies",
+   "url": "https://alchies.netlify.app",
+   "shot": "screenshots/alchies.jpg",
+   "desc": "Personal creative site.",
+   "tags": [
+    "personal"
+   ]
+  },
+  {
+   "name": "V-Line Editor",
+   "url": "https://vlineditor.netlify.app",
+   "shot": "screenshots/vlineditor.jpg",
+   "desc": "Text/line editor tool.",
+   "tags": [
+    "utility"
+   ]
+  },
+  {
+   "name": "Tread Bike Assignment",
+   "url": "https://treadw.netlify.app",
+   "shot": "screenshots/treadw.jpg",
+   "desc": "Bike assignment scheduling system.",
+   "tags": [
+    "utility"
+   ]
+  }
  ]
 }

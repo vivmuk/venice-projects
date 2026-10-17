@@ -109,6 +109,21 @@ fetch('projects.json').then(r=>r.json()).then(data=>{
     grid.appendChild(a);
     io.observe(a);
   });
+  const grid2 = document.getElementById('grid2');
+  if (grid2 && data.netlify_projects) {
+    data.netlify_projects.forEach((p, i)=>{
+      const a = document.createElement('a');
+      a.className = 'proj rv';
+      a.href = p.url; a.target = '_blank'; a.rel = 'noopener';
+      a.style.transitionDelay = (i%3*70)+'ms';
+      const shot = p.shot
+        ? `<div class="shot"><img loading="lazy" src="${p.shot}" alt="${p.name} screenshot" onerror="this.parentElement.classList.add('noimg');this.remove()"></div>`
+        : `<div class="shot noimg"></div>`;
+      a.innerHTML = `${shot}<div class="body"><h3>${p.name}</h3><p>${p.desc}</p><div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div></div><div class="go">↗</div>`;
+      grid2.appendChild(a);
+      io.observe(a);
+    });
+  }
 }).catch(err=>console.error('grid load failed', err));
 
 /* ---------- hero text scramble on load ---------- */
