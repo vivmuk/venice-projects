@@ -494,9 +494,10 @@
    "name": "GenAI Chutney",
    "url": "https://genaichutney.com",
    "shot": "screenshots/genaiclass.jpg",
-   "desc": "Introduction to Generative AI — custom-domain course site.",
+   "desc": "Introduction to Generative AI — custom-domain course site with BYOK image generator and prompt optimizer.",
    "tags": [
-    "education"
+    "education",
+    "byok"
    ],
    "special": true
   },
