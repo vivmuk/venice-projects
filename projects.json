@@ -36,7 +36,8 @@
    "desc": "Swiss-designed interface for Venice video models — model-aware params, self-healing requests, text/image/video-to-video.",
    "tags": [
     "video",
-    "swiss-design"
+    "swiss-design",
+    "byok"
    ],
    "top_pick": true
   },
@@ -102,7 +103,8 @@
    "desc": "AI protein folding + 3D visualization with an MSL mode for Medical Affairs.",
    "tags": [
     "science",
-    "3d"
+    "3d",
+    "byok"
    ],
    "top_pick": false
   },
@@ -146,7 +148,8 @@
    "desc": "Learn Gujarati for kids (4–12) — speech, images, conversation, Krashen's comprehensible-input method.",
    "tags": [
     "education",
-    "speech"
+    "speech",
+    "byok"
    ],
    "top_pick": false
   },
@@ -157,7 +160,8 @@
    "desc": "AI music generator — dynamic model capabilities, lyrics, instrumentation.",
    "tags": [
     "music",
-    "audio"
+    "audio",
+    "byok"
    ],
    "top_pick": true
   },
@@ -179,7 +183,8 @@
    "desc": "Logic-puzzle reasoning playground.",
    "tags": [
     "reasoning",
-    "games"
+    "games",
+    "byok"
    ],
    "top_pick": false
   },
@@ -190,7 +195,8 @@
    "desc": "Medical Affairs Darwinism — field intelligence for MSL teams.",
    "tags": [
     "pharma",
-    "strategy"
+    "strategy",
+    "byok"
    ],
    "top_pick": false
   },
@@ -201,7 +207,8 @@
    "desc": "Interactive catalog of cognitive biases with AI reframing.",
    "tags": [
     "psychology",
-    "learning"
+    "learning",
+    "byok"
    ],
    "top_pick": false
   },
@@ -222,7 +229,8 @@
    "desc": "Interactive game teaching Fable 5's capabilities across 5 chapters.",
    "tags": [
     "game",
-    "education"
+    "education",
+    "byok"
    ],
    "top_pick": false
   },
@@ -394,7 +402,8 @@
    "desc": "Cinematic prompt engineering for video generation.",
    "tags": [
     "video",
-    "prompts"
+    "prompts",
+    "byok"
    ]
   },
   {
@@ -403,7 +412,8 @@
    "shot": "screenshots/scrapeviv.jpg",
    "desc": "Scrape & analyze web pages with the Venice augment API.",
    "tags": [
-    "tools"
+    "tools",
+    "byok"
    ]
   },
   {
@@ -441,7 +451,8 @@
    "desc": "Article to podcast summarizer — Venice TTS.",
    "tags": [
     "audio",
-    "tts"
+    "tts",
+    "byok"
    ]
   },
   {
@@ -459,7 +470,8 @@
    "shot": "screenshots/leaderviv.jpg",
    "desc": "AI-powered leadership coaching.",
    "tags": [
-    "coaching"
+    "coaching",
+    "byok"
    ]
   },
   {
@@ -557,7 +569,8 @@
    "shot": "screenshots/insightextractor.jpg",
    "desc": "Medical presentation analysis.",
    "tags": [
-    "pharma"
+    "pharma",
+    "byok"
    ]
   },
   {
@@ -584,7 +597,8 @@
    "shot": "screenshots/vlineditor.jpg",
    "desc": "Text/line editor tool.",
    "tags": [
-    "utility"
+    "utility",
+    "byok"
    ]
   },
   {
