@@ -8,21 +8,21 @@
   "repo": "https://github.com/vivmuk/Childrensbook2",
   "shot": "screenshots/childrensbook2.jpg",
   "tag": "Venice-funded flagship",
-  "desc": "AI-powered children's storybook generator \u2014 age-appropriate stories (Venice text models), Studio Ghibli-style illustrations (qwen-image), and Kokoro TTS narration. Built around the bedtime ritual: daily rotating story prompts, reading streaks, and resume-where-you-left-off. The app that Venice funded \u2014 and the one that started everything else."
+  "desc": "AI-powered children's storybook generator — age-appropriate stories (Venice text models), Studio Ghibli-style illustrations (qwen-image), and Kokoro TTS narration. Built around the bedtime ritual: daily rotating story prompts, reading streaks, and resume-where-you-left-off. The app that Venice funded — and the one that started everything else."
  },
  "origin": {
   "name": "The 70s Card Creator",
   "url": "https://xmasviv.up.railway.app",
   "repo": "https://github.com/vivmuk/ChristmasCard",
   "shot": null,
-  "desc": "Where it all began: a retro Atomic-Xmas 'Daddy-O!' card generator \u2014 upload a photo, Venice paints it into a 1970s greeting card. One small script that turned into an eighteen-month building spree."
+  "desc": "Where it all began: a retro Atomic-Xmas 'Daddy-O!' card generator — upload a photo, Venice paints it into a 1970s greeting card. One small script that turned into an eighteen-month building spree."
  },
  "projects": [
   {
    "name": "NutriSnap",
    "url": "https://minimal-production-b450.up.railway.app",
    "shot": "screenshots/nutrisnap.jpg",
-   "desc": "Snap a meal, read the numbers \u2014 super-minimalist AI nutrition tracker. BYOK-ready, rewritten from scratch.",
+   "desc": "Snap a meal, read the numbers — super-minimalist AI nutrition tracker. BYOK-ready, rewritten from scratch.",
    "tags": [
     "health",
     "byok"
@@ -33,7 +33,7 @@
    "name": "Venice Video",
    "url": "https://venicevideo.up.railway.app",
    "shot": "screenshots/venice-video.jpg",
-   "desc": "Swiss-designed interface for Venice video models \u2014 model-aware params, self-healing requests, text/image/video-to-video.",
+   "desc": "Swiss-designed interface for Venice video models — model-aware params, self-healing requests, text/image/video-to-video.",
    "tags": [
     "video",
     "swiss-design"
@@ -55,7 +55,7 @@
    "name": "Messy Action",
    "url": "https://messyaction.up.railway.app",
    "shot": "screenshots/messy-action.jpg",
-   "desc": "100 Days of Messy Action \u2014 terminal-style transcript archive & searchable database.",
+   "desc": "100 Days of Messy Action — terminal-style transcript archive & searchable database.",
    "tags": [
     "archive",
     "search"
@@ -77,7 +77,7 @@
    "name": "Benchmark (ViviIndex)",
    "url": "https://benchmarkviv.up.railway.app",
    "shot": "screenshots/benchmark.jpg",
-   "desc": "Real-API benchmark harness against Venice models \u2014 6-track scoring, cost-per-score leaderboard.",
+   "desc": "Real-API benchmark harness against Venice models — 6-track scoring, cost-per-score leaderboard.",
    "tags": [
     "eval",
     "leaderboard"
@@ -88,7 +88,7 @@
    "name": "Designviv (Styles + Techniques)",
    "url": "https://designviv.up.railway.app",
    "shot": "screenshots/design-site.jpg",
-   "desc": "100 design styles + 226 frontend-technique compendium with live demos \u2014 agent-reference design library.",
+   "desc": "100 design styles + 226 frontend-technique compendium with live demos — agent-reference design library.",
    "tags": [
     "design",
     "agents"
@@ -132,7 +132,7 @@
    "name": "WildDeed",
    "url": "https://wilddeed-production.up.railway.app",
    "shot": "screenshots/patient-mercy.jpg",
-   "desc": "A naturalist's background check for any piece of land \u2014 AI wildlife dossiers for US parcels.",
+   "desc": "A naturalist's background check for any piece of land — AI wildlife dossiers for US parcels.",
    "tags": [
     "nature",
     "data"
@@ -143,7 +143,7 @@
    "name": "Gujarati Kids",
    "url": "https://gujarati.up.railway.app",
    "shot": "screenshots/gujarati.jpg",
-   "desc": "Learn Gujarati for kids (4\u201312) \u2014 speech, images, conversation, Krashen's comprehensible-input method.",
+   "desc": "Learn Gujarati for kids (4–12) — speech, images, conversation, Krashen's comprehensible-input method.",
    "tags": [
     "education",
     "speech"
@@ -154,7 +154,7 @@
    "name": "Music Viv",
    "url": "https://musicviv.up.railway.app",
    "shot": "screenshots/music-viv.jpg",
-   "desc": "AI music generator \u2014 dynamic model capabilities, lyrics, instrumentation.",
+   "desc": "AI music generator — dynamic model capabilities, lyrics, instrumentation.",
    "tags": [
     "music",
     "audio"
@@ -187,7 +187,7 @@
    "name": "MADarwin",
    "url": "https://madarwin.up.railway.app",
    "shot": "screenshots/madarwin.jpg",
-   "desc": "Medical Affairs Darwinism \u2014 field intelligence for MSL teams.",
+   "desc": "Medical Affairs Darwinism — field intelligence for MSL teams.",
    "tags": [
     "pharma",
     "strategy"
@@ -291,7 +291,7 @@
    "name": "jevusecases",
    "url": "https://jev.up.railway.app",
    "shot": "screenshots/jevusecases.jpg",
-   "desc": "Nineteen closed-answer jobs for a decision model \u2014 code, prompts, plates.",
+   "desc": "Nineteen closed-answer jobs for a decision model — code, prompts, plates.",
    "tags": [
     "eval",
     "bench"
@@ -323,7 +323,7 @@
    "name": "Vent",
    "url": "https://vent-production-f72f.up.railway.app",
    "shot": "screenshots/vent.jpg",
-   "desc": "AI listening companion \u2014 vent safely.",
+   "desc": "AI listening companion — vent safely.",
    "tags": [
     "wellbeing"
    ],
@@ -346,10 +346,11 @@
    "name": "Prompt Optimizer",
    "url": "https://promptoptimizer.netlify.app",
    "shot": "screenshots/promptoptimizer.jpg",
-   "desc": "Turn rough ideas into engineered prompts \u2014 system prompt designer with live model preview.",
+   "desc": "Turn rough ideas into engineered prompts — with the Be Ambitious engine and a Skill Vault of 11 tested viv-* skills. BYOK-ready.",
    "tags": [
     "text",
-    "tooling"
+    "tooling",
+    "byok"
    ],
    "special": true
   },
@@ -357,17 +358,18 @@
    "name": "V/GEN (imagegenviv)",
    "url": "https://imagegenviv.netlify.app",
    "shot": "screenshots/imagegenviv.jpg",
-   "desc": "AI image generator \u2014 the early Venice image playground.",
+   "desc": "AI image generator — the early Venice image playground, now BYOK-ready.",
    "tags": [
     "image",
-    "early"
+    "early",
+    "byok"
    ]
   },
   {
    "name": "MultiGen",
    "url": "https://multigen.netlify.app",
    "shot": "screenshots/multigen.jpg",
-   "desc": "BYOK multi-model studio \u2014 text/image/video/voice/music over your own Venice key. The BYOK blueprint.",
+   "desc": "BYOK multi-model studio — text/image/video/voice/music over your own Venice key. The BYOK blueprint.",
    "tags": [
     "byok",
     "studio"
@@ -378,10 +380,11 @@
    "name": "Ghibli Celebration Generator",
    "url": "https://70animeclebration.netlify.app",
    "shot": "screenshots/70animeclebration.jpg",
-   "desc": "A 70th birthday Ghibli-style celebration generator \u2014 Venice image API.",
+   "desc": "A 70th birthday Ghibli-style celebration generator — now BYOK: bring your own Venice key.",
    "tags": [
     "image",
-    "birthday"
+    "birthday",
+    "byok"
    ]
   },
   {
@@ -435,7 +438,7 @@
    "name": "Article-to-Podcast",
    "url": "https://audioviv.netlify.app",
    "shot": "screenshots/audioviv.jpg",
-   "desc": "Article to podcast summarizer \u2014 Venice TTS.",
+   "desc": "Article to podcast summarizer — Venice TTS.",
    "tags": [
     "audio",
     "tts"
@@ -463,7 +466,7 @@
    "name": "Field Medical Trainer",
    "url": "https://fmaitrainer.netlify.app",
    "shot": "screenshots/fmaitrainer.jpg",
-   "desc": "Field Medical training platform \u2014 MSL roleplay scenarios.",
+   "desc": "Field Medical training platform — MSL roleplay scenarios.",
    "tags": [
     "pharma",
     "training"
@@ -473,7 +476,7 @@
    "name": "Children's Book Generator (v1)",
    "url": "https://childrenbook.netlify.app",
    "shot": "screenshots/childrenbook.jpg",
-   "desc": "KinderQuill's direct ancestor \u2014 the first children's book generator.",
+   "desc": "KinderQuill's direct ancestor — the first children's book generator.",
    "tags": [
     "flagship-lineage"
    ]
@@ -491,7 +494,7 @@
    "name": "GenAI Chutney",
    "url": "https://genaichutney.com",
    "shot": "screenshots/genaiclass.jpg",
-   "desc": "Introduction to Generative AI \u2014 custom-domain course site.",
+   "desc": "Introduction to Generative AI — custom-domain course site.",
    "tags": [
     "education"
    ],
@@ -521,7 +524,7 @@
    "name": "Agentic Ad Board",
    "url": "https://agenticadboard.netlify.app",
    "shot": "screenshots/agenticadboard.jpg",
-   "desc": "Medical Advisory Board \u2014 multi-agent simulation.",
+   "desc": "Medical Advisory Board — multi-agent simulation.",
    "tags": [
     "pharma",
     "agents"
@@ -569,7 +572,7 @@
    "name": "Web Test Viv (Hydroponics)",
    "url": "https://webtestviv.netlify.app",
    "shot": "screenshots/webtestviv.jpg",
-   "desc": "Artisan hydroponics \u2014 research & cultivation.",
+   "desc": "Artisan hydroponics — research & cultivation.",
    "tags": [
     "experiment"
    ]
