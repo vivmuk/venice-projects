@@ -99,6 +99,28 @@ footer{position:relative;z-index:2;text-align:center;padding:10vh 24px 8vh;font-
 footer a{color:var(--cyan);text-decoration:none}
 footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:8px;box-shadow:0 0 12px var(--green);animation:blink 2s infinite}
 
+/* ==== VIV'S FAVORITES ==== */
+.favs{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:8vh 24px 4vh}
+.favs-head{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:40px}
+.favs-head .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.3em;color:var(--amber);text-transform:uppercase}
+.favs-head h2{font-size:clamp(30px,4.6vw,52px);font-weight:800;letter-spacing:-.02em}
+.fav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:26px}
+.fav{position:relative;display:block;background:var(--card);border:1px solid rgba(255,176,32,.35);border-radius:18px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 0 0 1px rgba(255,176,32,.1),0 18px 60px rgba(0,0,0,.45);transition:transform .5s cubic-bezier(.16,1,.3,1),border-color .4s,box-shadow .5s}
+.fav:hover{transform:translateY(-8px);border-color:var(--amber);box-shadow:0 24px 70px rgba(255,176,32,.16)}
+.fav.hero-card{grid-column:1/-1;display:grid;grid-template-columns:1.1fr .9fr;gap:0}
+@media(max-width:860px){.fav.hero-card{grid-template-columns:1fr}}
+.fav .fav-body{padding:28px 30px 26px;display:flex;flex-direction:column;justify-content:center}
+.fav .fav-name{font-size:clamp(22px,2.6vw,32px);font-weight:800;letter-spacing:-.02em}
+.fav .fav-name .grad{background:linear-gradient(90deg,var(--amber),var(--magenta));-webkit-background-clip:text;background-clip:text;color:transparent}
+.fav p{margin-top:12px;color:var(--dim);line-height:1.75;font-size:14.5px}
+.fav .fav-tags{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.fav .fav-cta{margin-top:20px;font-family:var(--mono);font-size:13px;color:var(--amber)}
+.fav:hover .fav-cta{text-shadow:0 0 14px rgba(255,176,32,.7)}
+.fav .shot{aspect-ratio:auto;min-height:100%;position:relative}
+.fav .shot img{width:100%;height:100%;object-fit:cover;object-position:top}
+.fav .medal{position:absolute;top:14px;right:14px;z-index:2;font-family:var(--mono);font-size:10px;letter-spacing:.2em;background:linear-gradient(90deg,var(--amber),var(--magenta));color:#05060a;font-weight:700;padding:5px 11px;border-radius:99px}
+.fav .fav-rank{font-family:var(--mono);font-size:11px;letter-spacing:.25em;color:var(--amber);text-transform:uppercase;margin-bottom:10px}
+
 .pick{position:absolute;top:12px;left:12px;z-index:2;font-family:var(--mono);font-size:10px;letter-spacing:.2em;background:linear-gradient(90deg,var(--amber),var(--magenta));color:#05060a;font-weight:700;padding:5px 10px;border-radius:99px}
 .byok-badge{position:absolute;top:12px;right:12px;z-index:2;font-family:var(--mono);font-size:10px;letter-spacing:.15em;background:rgba(53,185,140,.14);color:#35b98c;border:1px solid rgba(53,185,140,.5);padding:4px 9px;border-radius:99px;text-shadow:0 0 8px rgba(53,185,140,.6)}
 .special-row{position:relative;z-index:2;max-width:1160px;margin:0 auto 48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
