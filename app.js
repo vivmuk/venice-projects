@@ -105,7 +105,7 @@ fetch('projects.json').then(r=>r.json()).then(data=>{
     const shot = p.shot
       ? `<div class="shot"><img loading="lazy" src="${p.shot}" alt="${p.name} screenshot" onerror="this.parentElement.classList.add('noimg');this.remove()"></div>`
       : `<div class="shot noimg"></div>`;
-    a.innerHTML = `${shot}<div class="body"><h3>${p.name}</h3><p>${p.desc}</p><div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div></div><div class="go">↗</div>`;
+    a.innerHTML = `${p.top_pick?'<span class="pick">★ TOP PICK</span>':''}${(p.tags||[]).includes('byok')?'<span class="byok-badge">🔑 BYOK</span>':''}${shot}<div class="body"><h3>${p.name}</h3><p>${p.desc}</p><div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div></div><div class="go">↗</div>`;
     grid.appendChild(a);
     io.observe(a);
   });

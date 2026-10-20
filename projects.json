@@ -27,7 +27,7 @@
     "health",
     "byok"
    ],
-   "top_pick": true
+   "top_pick": false
   },
   {
    "name": "Venice Video",
@@ -83,7 +83,7 @@
     "eval",
     "leaderboard"
    ],
-   "top_pick": true
+   "top_pick": false
   },
   {
    "name": "Designviv (Styles + Techniques)",
@@ -106,7 +106,7 @@
     "3d",
     "byok"
    ],
-   "top_pick": false
+   "top_pick": true
   },
   {
    "name": "OpenEvidence",
@@ -151,7 +151,7 @@
     "speech",
     "byok"
    ],
-   "top_pick": false
+   "top_pick": true
   },
   {
    "name": "Music Viv",
@@ -186,7 +186,7 @@
     "games",
     "byok"
    ],
-   "top_pick": false
+   "top_pick": true
   },
   {
    "name": "MADarwin",
@@ -198,7 +198,7 @@
     "strategy",
     "byok"
    ],
-   "top_pick": false
+   "top_pick": true
   },
   {
    "name": "Cognitive Bias",
@@ -232,7 +232,7 @@
     "education",
     "byok"
    ],
-   "top_pick": false
+   "top_pick": true
   },
   {
    "name": "Harness Engineering",
