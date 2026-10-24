@@ -1,0 +1,9 @@
+{
+  "name": "venice-projects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, API-key-gated archive of Venice projects.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

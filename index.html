@@ -129,11 +129,19 @@ footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;backgr
 .proj.special{border-color:rgba(255,170,0,.35);box-shadow:0 0 0 1px rgba(255,170,0,.12),0 18px 60px rgba(0,0,0,.45)}
 /* progress bar */
 #prog{position:fixed;top:0;left:0;height:2px;z-index:50;background:linear-gradient(90deg,var(--cyan),var(--green),var(--magenta));width:0%}
+.signout{position:fixed;top:18px;right:22px;z-index:60;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--dim);background:rgba(8,10,14,.72);border:1px solid #232936;border-radius:999px;padding:6px 7px 6px 12px;backdrop-filter:blur(8px)}
+.signout button{border:1px solid transparent;background:transparent;color:var(--dim);border-radius:999px;padding:6px 10px;font:700 10px/1 var(--mono);letter-spacing:.06em;cursor:pointer}
+.signout button:hover{border-color:#2e3746;color:var(--cyan)}
+@media(max-width:640px){.signout span{display:none}.signout{padding:5px}}
 </style>
 </head>
 <body>
 <div id="prog"></div>
 <div id="cosmos"></div>
+<form class="signout" action="/api/logout" method="post">
+  <span>🔒 private session</span>
+  <button type="submit">Sign out</button>
+</form>
 
 <section class="hero">
   <div class="eyebrow">vivmuk · venice.ai · 2025—2026<span class="cursor"></span></div>

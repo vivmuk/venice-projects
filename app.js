@@ -94,7 +94,10 @@ const cio = new IntersectionObserver(es=>{
 document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 
 /* ---------- BUILD GRID ---------- */
-fetch('projects.json').then(r=>r.json()).then(data=>{
+fetch('projects.json').then(r=>{
+  if (r.status === 401 || r.status === 403) { location.href = '/login'; throw new Error('session expired'); }
+  return r.json();
+}).then(data=>{
   // Hero heading + stats already static; wire origin link
   const grid = document.getElementById('grid');
   data.projects.forEach((p, i)=>{
