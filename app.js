@@ -214,5 +214,6 @@ const scramble = setInterval(()=>{
   }).join('');
   if (frame > finalText.length*2.2 + 8){ clearInterval(scramble); h1.textContent = finalText; }
 }, 34);
+setTimeout(()=>{ clearInterval(scramble); h1.textContent = finalText; }, 1800);
 
 })();
