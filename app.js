@@ -93,6 +93,50 @@ const cio = new IntersectionObserver(es=>{
 },{threshold:.5});
 document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 
+/* ---------- CATALOG FIRST + SEARCH / FILTER ---------- */
+const heroEl = document.querySelector('.hero');
+const catalogEl = document.getElementById('all');
+if (heroEl && catalogEl) heroEl.after(catalogEl);
+
+function initCatalog(){
+  const grid = document.getElementById('grid');
+  const search = document.getElementById('cat-search');
+  const chips = document.getElementById('cat-chips');
+  const result = document.getElementById('cat-result');
+  const count = document.getElementById('cat-count');
+  if (!grid || !search || !chips) return;
+  const cards = [...grid.querySelectorAll('.proj')];
+  let active = 'all';
+
+  function apply(){
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const tags = (card.dataset.tags || '').split(' ').filter(Boolean);
+      const hay = `${card.dataset.name || ''} ${card.dataset.tags || ''} ${card.textContent || ''}`.toLowerCase();
+      const ok = (!q || hay.includes(q)) && (active === 'all' || tags.includes(active));
+      card.hidden = !ok;
+      if (ok) visible += 1;
+    });
+    if (count) count.textContent = visible;
+    if (result) {
+      result.textContent = visible === cards.length
+        ? `Showing all ${cards.length} live projects`
+        : `${visible} of ${cards.length} projects${active === 'all' ? '' : ` · ${active}`}${q ? ` · “${search.value.trim()}”` : ''}`;
+    }
+  }
+
+  chips.addEventListener('click', event => {
+    const button = event.target.closest('.chip');
+    if (!button) return;
+    active = button.dataset.tag || 'all';
+    chips.querySelectorAll('.chip').forEach(chip => chip.classList.toggle('on', chip === button));
+    apply();
+  });
+  search.addEventListener('input', apply);
+  apply();
+}
+
 /* ---------- BUILD GRID ---------- */
 fetch('projects.json').then(r=>{
   if (r.status === 401 || r.status === 403) { location.href = '/login'; throw new Error('session expired'); }
@@ -104,6 +148,8 @@ fetch('projects.json').then(r=>{
     const a = document.createElement('a');
     a.className = 'proj rv';
     a.href = p.url; a.target = '_blank'; a.rel = 'noopener';
+    a.dataset.name = p.name.toLowerCase();
+    a.dataset.tags = (p.tags || []).join(' ').toLowerCase();
     a.style.transitionDelay = (i%3*70)+'ms';
     const shot = p.shot
       ? `<div class="shot"><img loading="lazy" src="${p.shot}" alt="${p.name} screenshot" onerror="this.parentElement.classList.add('noimg');this.remove()"></div>`
@@ -123,6 +169,8 @@ fetch('projects.json').then(r=>{
       const a = document.createElement('a');
       a.className = 'proj special rv';
       a.href = p.url; a.target = '_blank'; a.rel = 'noopener';
+      a.dataset.name = p.name.toLowerCase();
+      a.dataset.tags = (p.tags || []).join(' ').toLowerCase();
       a.style.transitionDelay = (i%3*70)+'ms';
       const shot = p.shot
         ? `<div class="shot"><img loading="lazy" src="${p.shot}" alt="${p.name} screenshot" onerror="this.parentElement.classList.add('noimg');this.remove()"></div>`
@@ -137,6 +185,8 @@ fetch('projects.json').then(r=>{
       const a = document.createElement('a');
       a.className = 'proj rv';
       a.href = p.url; a.target = '_blank'; a.rel = 'noopener';
+      a.dataset.name = p.name.toLowerCase();
+      a.dataset.tags = (p.tags || []).join(' ').toLowerCase();
       a.style.transitionDelay = (i%3*70)+'ms';
       const shot = p.shot
         ? `<div class="shot"><img loading="lazy" src="${p.shot}" alt="${p.name} screenshot" onerror="this.parentElement.classList.add('noimg');this.remove()"></div>`
@@ -146,6 +196,7 @@ fetch('projects.json').then(r=>{
       io.observe(a);
     });
   }
+  initCatalog();
 }).catch(err=>console.error('grid load failed', err));
 
 /* ---------- hero text scramble on load ---------- */
