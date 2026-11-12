@@ -28,7 +28,10 @@ const MIME = {
   '.gif': 'image/gif',
   '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon',
-  '.woff2': 'font/woff2'
+  '.woff2': 'font/woff2',
+  '.mp4': 'video/mp4',
+  '.webm': 'video/webm',
+  '.txt': 'text/plain; charset=utf-8'
 };
 
 const attempts = new Map();
@@ -145,6 +148,7 @@ function loginPage() {
 
 function serveStatic(req, res, pathname) {
   let rel = pathname === '/' ? '/index.html' : pathname;
+  if (rel.endsWith('/')) rel += 'index.html';
   try {
     rel = decodeURIComponent(rel);
   } catch {
@@ -154,17 +158,46 @@ function serveStatic(req, res, pathname) {
   if (!file.startsWith(ROOT + path.sep)) return send(res, 403, 'Forbidden', { 'Content-Type': 'text/plain; charset=utf-8' });
 
   fs.stat(file, (err, stat) => {
+    if (!err && stat.isDirectory()) {
+      const index = path.join(file, 'index.html');
+      return fs.stat(index, (indexErr, indexStat) => {
+        if (indexErr || !indexStat.isFile()) {
+          return send(res, 404, 'Not found', { 'Content-Type': 'text/plain; charset=utf-8' });
+        }
+        streamFile(req, res, index, indexStat);
+      });
+    }
     if (err || !stat.isFile()) return send(res, 404, 'Not found', { 'Content-Type': 'text/plain; charset=utf-8' });
-    const ext = path.extname(file).toLowerCase();
-    res.writeHead(200, {
-      'Content-Type': MIME[ext] || 'application/octet-stream',
-      'Content-Length': stat.size,
-      'X-Content-Type-Options': 'nosniff',
-      'Cache-Control': ext === '.html' ? 'no-store' : 'public, max-age=3600'
-    });
-    if (req.method === 'HEAD') return res.end();
-    fs.createReadStream(file).pipe(res);
+    streamFile(req, res, file, stat);
   });
+}
+
+function streamFile(req, res, file, stat) {
+  const ext = path.extname(file).toLowerCase();
+  const common = {
+    'Content-Type': MIME[ext] || 'application/octet-stream',
+    'X-Content-Type-Options': 'nosniff',
+    'Accept-Ranges': 'bytes',
+    'Cache-Control': ext === '.html' ? 'no-store' : 'public, max-age=3600'
+  };
+
+  // Range requests let the browser scrub a film without downloading all of it.
+  const range = req.headers.range;
+  if (range && /^bytes=/.test(range)) {
+    const [rawStart, rawEnd] = range.replace(/bytes=/, '').split('-');
+    const start = Number.isFinite(parseInt(rawStart, 10)) ? parseInt(rawStart, 10) : 0;
+    const end = rawEnd ? Math.min(parseInt(rawEnd, 10), stat.size - 1) : stat.size - 1;
+    if (!Number.isFinite(start) || start >= stat.size || end < start) {
+      return send(res, 416, '', { 'Content-Range': `bytes */${stat.size}` });
+    }
+    res.writeHead(206, { ...common, 'Content-Range': `bytes ${start}-${end}/${stat.size}`, 'Content-Length': end - start + 1 });
+    if (req.method === 'HEAD') return res.end();
+    return fs.createReadStream(file, { start, end }).pipe(res);
+  }
+
+  res.writeHead(200, { ...common, 'Content-Length': stat.size });
+  if (req.method === 'HEAD') return res.end();
+  fs.createReadStream(file).pipe(res);
 }
 
 const server = http.createServer(async (req, res) => {

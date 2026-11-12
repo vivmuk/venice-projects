@@ -22,6 +22,12 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);overflow-x:hi
 #cosmos{position:fixed;inset:0;z-index:0;pointer-events:none}
 #cosmos canvas{display:block}
 
+
+/* ==== FILM STRIP ==== */
+.filmstrip{position:absolute;top:38px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#05060a;background:linear-gradient(90deg,var(--amber),#ff8a3d);padding:11px 22px;border-radius:99px;text-decoration:none;font-weight:700;z-index:4;box-shadow:0 0 0 1px rgba(255,176,32,.35),0 14px 40px -14px rgba(255,176,32,.7);transition:.3s}
+.filmstrip:hover{transform:translateX(-50%) translateY(-2px);box-shadow:0 0 0 1px rgba(255,176,32,.6),0 18px 50px -14px rgba(255,176,32,.9)}
+.filmstrip b{color:#3a1c00}
+
 /* ==== HERO ==== */
 .hero{position:relative;z-index:2;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 24px}
 .hero .eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.35em;color:var(--green);text-transform:uppercase;margin-bottom:22px}
@@ -192,6 +198,7 @@ footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;backgr
 </form>
 
 <section class="hero">
+  <a class="filmstrip" href="/films">▶ &nbsp;LAUNCH FILMS &nbsp;·&nbsp; one app a day <b id="filmcount"></b></a>
   <div class="eyebrow">vivmuk · venice.ai · 2025—2026<span class="cursor"></span></div>
   <h1><span class="grad">VENICE PROJECTS</span></h1>
   <div class="sub">One API key. Eighteen months of building. Every app, agent, game and course below runs on the Venice API — starting with one 70s birthday card, and compounding into a fleet.</div>
@@ -326,5 +333,11 @@ footer .pulse{display:inline-block;width:8px;height:8px;border-radius:50%;backgr
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="app.js"></script>
+<script>
+fetch('films.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  const n=(d.films||[]).length, t=d.total||n, el=document.getElementById('filmcount');
+  if(el) el.textContent = n ? ` ${n}/${t}` : '';
+}).catch(()=>{});
+</script>
 </body>
 </html>
