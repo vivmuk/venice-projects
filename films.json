@@ -13,6 +13,15 @@
    "tagline": "Drop a meal photo, read the numbers: every food item, its calories, and the total — no account, no database, just your own Venice key."
   },
   {
+   "slug": "venice-video",
+   "name": "Venice Video",
+   "made": "2026-11-12",
+   "video": "films/venice-video.mp4",
+   "poster": "films/venice-video.jpg",
+   "live": "https://venicevideo.up.railway.app",
+   "tagline": "47 Venice video models behind one prompt box — pick one, type the shot, and the interface already knows its length, resolution and audio."
+  },
+  {
    "slug": "kinderquill",
    "name": "KinderQuill",
    "made": "2026-11-10",
