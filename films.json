@@ -3,14 +3,14 @@
  "total": 56,
  "films": [
   {
-   "slug": "lemonviv",
-   "name": "Lemonviv",
-   "made": "2026-11-09",
-   "video": "films/lemonviv.mp4",
-   "poster": "films/lemonviv.jpg",
-   "live": "https://lemonviv-production.up.railway.app",
-   "repo": "https://github.com/vivmuk/lemonviv",
-   "tagline": "A face you can talk to. One still portrait, animated live by LemonSlice and written by Venice \u2014 English, Hindi, Arabic."
+   "slug": "nutrisnap",
+   "name": "NutriSnap",
+   "made": "2026-11-12",
+   "video": "films/nutrisnap.mp4",
+   "poster": "films/nutrisnap.jpg",
+   "live": "https://minimal-production-b450.up.railway.app",
+   "repo": "https://github.com/vivmuk/nutrisnap",
+   "tagline": "Drop a meal photo, read the numbers: every food item, its calories, and the total — no account, no database, just your own Venice key."
   },
   {
    "slug": "kinderquill",
@@ -20,7 +20,17 @@
    "poster": "films/kinderquill.jpg",
    "live": "https://kinderquill.up.railway.app",
    "repo": "https://github.com/vivmuk/Childrensbook2",
-   "tagline": "Say what the story is about and KinderQuill paints a whole picture book \u2014 every page illustrated and written for that story, never repeated."
+   "tagline": "Say what the story is about and KinderQuill paints a whole picture book — every page illustrated and written for that story, never repeated."
+  },
+  {
+   "slug": "lemonviv",
+   "name": "Lemonviv",
+   "made": "2026-11-09",
+   "video": "films/lemonviv.mp4",
+   "poster": "films/lemonviv.jpg",
+   "live": "https://lemonviv-production.up.railway.app",
+   "repo": "https://github.com/vivmuk/lemonviv",
+   "tagline": "A face you can talk to. One still portrait, animated live by LemonSlice and written by Venice — English, Hindi, Arabic."
   }
  ]
 }
