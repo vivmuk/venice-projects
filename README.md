@@ -3,7 +3,26 @@
 A living archive of every project built on the [Venice API](https://venice.ai) over 18 months — from the original 70s birthday-card generator to **KinderQuill** (the Venice-funded flagship) and a fleet of 50+ live deployments.
 
 ## Live site
-https://web-production-de114.up.railway.app
+https://venice.up.railway.app
+
+## Launch films
+`/films` is a reel of 20-second launch films — one app a day, newest first, with a progress meter against the whole catalogue.
+
+- `films/index.html` — the reel (poster grid, click to play, modal player)
+- `films.json` — the catalogue: slug, name, date, tagline, video, poster, live URL
+- `films/<slug>.mp4` + `films/<slug>.jpg` — a film and its poster
+- `scripts/publish-film.mjs` — publish one film: copies files, updates the catalogue, commits, pushes, deploys
+- `scripts/check-live.mjs <slug>` — proves it is really live (page, catalogue entry, ranged 206 video, poster)
+
+```bash
+node scripts/publish-film.mjs --slug my-app --name "My App" \
+  --tagline "One sentence in the app's own words" \
+  --live https://my-app.up.railway.app \
+  --video ~/Projects/viv-brag/my-app/brag-output/brag.mp4
+node scripts/check-live.mjs my-app
+```
+
+Films are made with the `brag-slim` skill: six scenes at 1920×1080, 30fps, 20.0s exactly, cuts on the beat of the bundled track, every line of copy taken from the app itself.
 
 ## What's inside
 - `server.js` — private gate: verifies a Venice API key live, then issues a signed 12-hour HttpOnly session cookie
