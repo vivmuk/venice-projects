@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "total": 56,
  "films": [
+  {
+   "slug": "mystery-menu",
+   "name": "Mystery Menu",
+   "made": "2026-11-15",
+   "video": "films/mystery-menu.mp4",
+   "poster": "films/mystery-menu.jpg",
+   "live": "https://mystery-menu-production.up.railway.app",
+   "tagline": "Two chefs, five secret ingredients each, twenty coins apiece — and one table voting on the dish they would actually eat."
+  },
   {
    "slug": "messy-action",
    "name": "Messy Action",
