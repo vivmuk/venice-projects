@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "total": 56,
  "films": [
+  {
+   "slug": "benchmark-viviindex",
+   "name": "Benchmark (ViviIndex)",
+   "made": "2026-11-16",
+   "video": "films/benchmark-viviindex.mp4",
+   "poster": "films/benchmark-viviindex.jpg",
+   "live": "https://benchmarkviv.up.railway.app",
+   "tagline": "78 models, 545 scored runs, seven fixed-prompt tracks — one VivIndex score with cost per run and output speed beside it."
+  },
   {
    "slug": "mystery-menu",
    "name": "Mystery Menu",
