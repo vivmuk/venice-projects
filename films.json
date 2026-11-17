@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "total": 56,
  "films": [
+  {
+   "slug": "designviv",
+   "name": "Designviv (Styles + Techniques)",
+   "made": "2026-11-17",
+   "video": "films/designviv.mp4",
+   "poster": "films/designviv.jpg",
+   "live": "https://designviv.up.railway.app",
+   "tagline": "764 design styles, add-ons, interactive patterns and techniques — each with its palette, typefaces and a copy-ready prompt, plus one /catalog.json for agents."
+  },
   {
    "slug": "benchmark-viviindex",
    "name": "Benchmark (ViviIndex)",
