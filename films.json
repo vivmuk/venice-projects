@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "total": 56,
  "films": [
+  {
+   "slug": "proteinlens",
+   "name": "ProteinLens",
+   "made": "2026-11-18",
+   "video": "films/proteinlens.mp4",
+   "poster": "films/proteinlens.jpg",
+   "live": "https://proteinlens.up.railway.app",
+   "tagline": "Paste a sequence and get a structure, a per-residue confidence map, and a science-grade explanation — SimpleFold folds it with no multiple sequence alignment."
+  },
   {
    "slug": "designviv",
    "name": "Designviv (Styles + Techniques)",
