@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "total": 56,
  "films": [
+  {
+   "slug": "openevidence",
+   "name": "OpenEvidence",
+   "made": "2026-11-19",
+   "video": "films/openevidence.mp4",
+   "poster": "films/openevidence.jpg",
+   "live": "https://oe.up.railway.app",
+   "tagline": "Comprehensive tracking of the fastest-growing medical AI platform in history — partnerships, products, funding, adoption metrics, competitors and tech stack, ranked by materiality rather than recency."
+  },
   {
    "slug": "proteinlens",
    "name": "ProteinLens",
