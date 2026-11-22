@@ -12,6 +12,15 @@
    "tagline": "Describe how you feel in plain words and TrialPath returns open U.S. trial sites across 16 care areas — each with the reason it may fit and what the site still has to confirm."
   },
   {
+   "slug": "wilddeed",
+   "name": "WildDeed",
+   "made": "2026-11-22",
+   "video": "films/wilddeed.mp4",
+   "poster": "films/wilddeed.jpg",
+   "live": "https://wilddeed-production.up.railway.app",
+   "tagline": "Type any US address and WildDeed returns the wildlife record around it — GBIF occurrence records and IUCN status, live — then writes a 7-page naturalist's dossier as a PDF."
+  },
+  {
    "slug": "openevidence",
    "name": "OpenEvidence",
    "made": "2026-11-19",
