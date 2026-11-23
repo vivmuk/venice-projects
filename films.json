@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "total": 56,
  "films": [
+  {
+   "slug": "gujarati-kids",
+   "name": "Gujarati Kids",
+   "made": "2026-11-23",
+   "video": "films/gujarati-kids.mp4",
+   "poster": "films/gujarati-kids.jpg",
+   "live": "https://gujarati.up.railway.app",
+   "tagline": "Tap any letter to hear it, see its picture word and trace it — 283 illustrated words, 48 stories and 9 rhymes, with Guju, Nani and Vagh to talk to about any of it."
+  },
   {
    "slug": "trialpath",
    "name": "TrialPath (OncoMatch)",
