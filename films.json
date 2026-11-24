@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "total": 56,
  "films": [
+  {
+   "slug": "music-viv",
+   "name": "Music Viv",
+   "made": "2026-11-24",
+   "video": "films/music-viv.mp4",
+   "poster": "films/music-viv.jpg",
+   "live": "https://musicviv.up.railway.app",
+   "tagline": "Describe the track in plain words and VivMusic rewrites it into a producer's brief, checks what the chosen Venice model actually supports, then renders the audio."
+  },
   {
    "slug": "gujarati-kids",
    "name": "Gujarati Kids",
