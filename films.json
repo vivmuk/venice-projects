@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "total": 56,
  "films": [
+  {
+   "slug": "logicviv",
+   "name": "LogicViv",
+   "made": "2026-11-25",
+   "video": "films/logicviv.mp4",
+   "poster": "films/logicviv.jpg",
+   "live": "https://logicviv.up.railway.app",
+   "tagline": "One reasoning card a day: each card names the hidden move inside an argument, then hands you three questions to ask before you believe it."
+  },
   {
    "slug": "music-viv",
    "name": "Music Viv",
