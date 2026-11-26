@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "total": 56,
  "films": [
+  {
+   "slug": "madarwin",
+   "name": "MADarwin",
+   "made": "2026-11-26",
+   "video": "films/madarwin.mp4",
+   "poster": "films/madarwin.jpg",
+   "live": "https://madarwin.up.railway.app",
+   "tagline": "Versioned SKILL.md files compete in the same task environment, get scored on accuracy, evidence, compliance and clarity, and the winning variant is inherited — MA·Darwin runs the selection loop for Medical Affairs agent skills."
+  },
   {
    "slug": "logicviv",
    "name": "LogicViv",
