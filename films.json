@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "total": 56,
  "films": [
+  {
+   "slug": "cognitive-bias",
+   "name": "Cognitive Bias",
+   "made": "2026-11-27",
+   "video": "films/cognitive-bias.mp4",
+   "poster": "films/cognitive-bias.jpg",
+   "live": "https://cogviv.up.railway.app",
+   "tagline": "A dark library of 99 cognitive biases — each one a card, a three-part lesson, a quiz and an AI mentor; search one and the library collapses to it."
+  },
   {
    "slug": "madarwin",
    "name": "MADarwin",
