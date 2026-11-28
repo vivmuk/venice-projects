@@ -1,7 +1,16 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "total": 56,
  "films": [
+  {
+   "slug": "vivgpt",
+   "name": "vGPT (Venice Instrument)",
+   "made": "2026-11-28",
+   "video": "films/vivgpt.mp4",
+   "poster": "films/vivgpt.jpg",
+   "live": "https://vivgpt.up.railway.app",
+   "tagline": "Five AI tools behind one rotary dial — chat, image, video, audio and library in a hardware-style instrument."
+  },
   {
    "slug": "cognitive-bias",
    "name": "Cognitive Bias",
